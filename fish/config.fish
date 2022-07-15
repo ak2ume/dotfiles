@@ -21,8 +21,3 @@ end
 # set incremental search tool in ghq
 set GHQ_SELECTOR peco
 
-# RISC-V toolchain
-set -gx PACKAGES_PATH /mnt/d/ak2ume/git/github.com/riscv-collab/riscv-edk2-platforms
-set -gx PACKAGES_PATH /mnt/d/ak2ume/git/github.com/riscv-collab/riscv-edk2 $PACKAGES_PATH
-fish_add_path /opt/riscv/bin
-set -gx GCC5_RISCV64_PREFIX /opt/riscv/bin/riscv64-unknown-elf-
