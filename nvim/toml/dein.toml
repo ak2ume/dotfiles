@@ -1,0 +1,53 @@
+[[plugins]]
+repo = 'zefei/vim-wintabs'
+hook_add = '''
+  map <C-n> <Plug>(wintabs_previous)
+  map <C-p> <Plug>(wintabs_next)
+  map <C-q> <Plug>(wintabs_close)
+  map <C-T>u <Plug>(wintabs_undo)
+  map <C-T><C-o> <Plug>(wintabs_only)
+'''
+
+[[plugins]]
+repo = 'wellle/targets.vim'
+
+[[plugins]]
+repo = 'haya14busa/vim-edgemotion'
+hook_add = '''
+  map <M-j> <Plug>(edgemotion-j)
+  map <M-k> <Plug>(edgemotion-k)
+'''
+
+[[plugins]]
+repo = 'xolox/vim-misc'
+[[plugins]]
+repo = 'xolox/vim-session'
+
+[[plugins]]
+repo = 'editorconfig/editorconfig-vim'
+
+[[plugins]]
+repo = 'lambdalisue/gina.vim'
+hook_add = '''
+  nmap <leader>gs <cmd>Gina status<cr>
+'''
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+hook_add = '''
+  let g:gitgutter_map_keys = 0
+  nmap ]c <Plug>(GitGutterNextHunk)
+  nmap [c <Plug>(GitGutterPrevHunk)
+'''
+
+[[plugins]]
+repo = 'lambdalisue/fern.vim'
+
+[[plugins]]
+repo = 'nvim-lua/plenary.nvim'
+[[plugins]]
+repo = 'nvim-telescope/telescope.nvim'
+[[plugins]]
+repo = 'nvim-telescope/telescope-fzf-native.nvim'
+build = 'make'
+
