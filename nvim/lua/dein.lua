@@ -13,10 +13,8 @@ end
 
 -- begin settings
 if (vim.fn['dein#load_state'](dein_dir) == 1) then
---  local rc_dir = vim.fn.expand('../toml')
   local rc_dir = vim.g.configtomlpath
   local toml = rc_dir..'/dein.toml'
---  local toml = configtomlpath..'/dein.toml'
   vim.fn['dein#begin'](dein_dir)
   vim.fn['dein#load_toml'](toml, { lazy = 0 })
   vim.fn['dein#end']()
