@@ -32,7 +32,8 @@ repo = 'editorconfig/editorconfig-vim'
 [[plugins]]
 repo = 'lambdalisue/gina.vim'
 hook_add = '''
-  nmap <leader>gs <cmd>Gina status<cr>
+  nmap gns <cmd>Gina status<cr>
+  nmap gnc <cmd>Gina commit<cr>
 '''
 
 [[plugins]]
@@ -41,6 +42,9 @@ hook_add = '''
   let g:gitgutter_map_keys = 0
   nmap ]c <Plug>(GitGutterNextHunk)
   nmap [c <Plug>(GitGutterPrevHunk)
+  nmap ghs <Plug>(GitGutterStageHunk)
+  nmap ghu <Plug>(GitGutterUndoHunk)
+  nmap ghp <Plug>(GitGutterPreviewHunk)
 '''
 
 [[plugins]]
