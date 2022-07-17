@@ -1,8 +1,9 @@
 [[plugins]]
 repo = 'zefei/vim-wintabs'
 hook_add = '''
-  map <C-n> <Plug>(wintabs_previous)
-  map <C-p> <Plug>(wintabs_next)
+  let g:wintabs_display = 'statusline'
+  map <C-h> <Plug>(wintabs_previous)
+  map <C-l> <Plug>(wintabs_next)
   map <C-q> <Plug>(wintabs_close)
   map <C-T>u <Plug>(wintabs_undo)
   map <C-T><C-o> <Plug>(wintabs_only)
