@@ -15,7 +15,9 @@ repo = 'wellle/targets.vim'
 repo = 'haya14busa/vim-edgemotion'
 hook_add = '''
   map <M-j> <Plug>(edgemotion-j)
+  map <D-j> <Plug>(edgemotion-j)
   map <M-k> <Plug>(edgemotion-k)
+  map <D-k> <Plug>(edgemotion-k)
 '''
 
 [[plugins]]
