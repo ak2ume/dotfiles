@@ -4,7 +4,6 @@ vim.o.splitright = true
 vim.o.termguicolors = true
 vim.o.hidden = true
 vim.o.updatetime = 300
-vim.o.termguicolors = true
 vim.bo.expandtab = true
 vim.bo.autoindent = true
 vim.bo.tabstop = 2
