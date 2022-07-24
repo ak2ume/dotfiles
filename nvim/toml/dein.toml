@@ -49,6 +49,8 @@ hook_add = '''
 
 [[plugins]]
 repo = 'junegunn/fzf'
+[[plugins]]
+repo = 'junegunn/fzf.vim'
 
 [[plugins]]
 repo = 'lambdalisue/fern.vim'
