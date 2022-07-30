@@ -6,6 +6,12 @@ end
 # peco
 set fish_plugins theme peco
 
+# alias
+# 既存のコマンドをより良いデフォルトに上書き
+alias mv="mv -i"           # -i 上書き前に警告
+alias mkdir="mkdir -p"     # -p 必要に応じて親ディレクトリを作る
+alias df="df -h"           # -h 人間が読める形式で表示
+
 # display git branch
 set -g theme_display_git_master_branch yes
 # prompt after newline
