@@ -4,9 +4,11 @@ hook_add = '''
   let g:wintabs_display = 'statusline'
   map <C-h> <Plug>(wintabs_previous)
   map <C-l> <Plug>(wintabs_next)
-  map <C-q> <Plug>(wintabs_close)
-  map <C-T>u <Plug>(wintabs_undo)
+  map <C-t><C-c> <Plug>(wintabs_close)
   map <C-T><C-o> <Plug>(wintabs_only)
+  map <C-T><C-u> <Plug>(wintabs_undo)
+  map <C-w><C-c> <Plug>(wintabs_close_window)
+  map <C-w><C-o> <Plug>(wintabs_only_window)
 '''
 
 [[plugins]]
