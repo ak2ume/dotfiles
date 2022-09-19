@@ -21,7 +21,7 @@ local function map(mode, lhs, rhs, opts)
   vim.api.nvim_set_keymap(mode, lhs, rhs, options)
 end
 map("n", "<M-h>", "<C-w>h")
-map("n", "<D-h>", "<C-w>h")
+map("n", "<D-h>", "<C-w>h") -- can't use it on Mac due to the default key shortcut
 map("n", "<M-j>", "<C-w>j")
 map("n", "<D-j>", "<C-w>j")
 map("n", "<M-k>", "<C-w>k")
