@@ -13,6 +13,7 @@ vim.wo.number = true
 vim.wo.signcolumn = 'yes'
 vim.wo.cursorline = true
 vim.cmd 'set clipboard+=unnamedplus'
+vim.cmd 'set wildmode=longest,list'
 
 -- key bindings --
 local function map(mode, lhs, rhs, opts)
@@ -39,4 +40,7 @@ map("t", "<D-l>", "<C-Bslash><C-n><C-w>l")
 map("t", "<Esc>", "<C-Bslash><C-n>")
 map("t", "<C-[>", "<C-Bslash><C-n>")
 map("t", "<C-v><Esc>", "<Esc>")
+
+-- key shortcut --
+vim.cmd 'cnoremap <expr> %% getcmdtype() == ":" ? expand("%:h")."/" : "%%"'
 
