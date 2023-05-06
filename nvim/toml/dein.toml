@@ -1,4 +1,8 @@
 [[plugins]]
+repo = 'tani/vim-jetpack'
+opt = true
+
+[[plugins]]
 repo = 'zefei/vim-wintabs'
 hook_add = '''
   let g:wintabs_display = 'statusline'
