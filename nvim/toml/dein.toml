@@ -22,6 +22,10 @@ repo = 'wellle/targets.vim'
 repo = 'xolox/vim-misc'
 [[plugins]]
 repo = 'xolox/vim-session'
+hook_add = '''
+  nnoremap gos <cmd>OpenSession<CR>
+  nnoremap gss <cmd>SaveSession<CR>
+'''
 
 [[plugins]]
 repo = 'editorconfig/editorconfig-vim'
@@ -51,6 +55,10 @@ repo = 'junegunn/fzf.vim'
 
 [[plugins]]
 repo = 'lambdalisue/fern.vim'
+hook_add = '''
+  nnoremap gfd <cmd>Fern %:h<CR>
+  nnoremap gcd <cmd>Fern .<CR>
+'''
 
 [[plugins]]
 repo = 'radenling/vim-dispatch-neovim'
