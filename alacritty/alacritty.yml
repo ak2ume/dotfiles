@@ -1,0 +1,9 @@
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  # Specifying '0' will disable scrolling.
+  history: 10000
+
+key_bindings:
+  - { key: LBracket,  mods: Control,                    chars: "\x1b"    }
+  # https://github.com/alacritty/alacritty/issues/2908
+
