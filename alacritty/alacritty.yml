@@ -79,11 +79,16 @@ key_bindings:
   - { key: Key8,      mods: Command|Shift, chars: "\x1b("                       }
   - { key: Key9,      mods: Command|Shift, chars: "\x1b)"                       }
   - { key: Minus,     mods: Command|Shift, chars: "\x1b="                       } # Alt + =
+    #- { key: Grave,     mods: Command,       chars: "\x1b^"                       } # Alt + ^
     #- { key: Grave,     mods: Command|Shift, chars: "\x1b~"                       } # Alt + ~
   - { key: LBracket,  mods: Command,       chars: "\x1b["                       } # Alt + [
   - { key: LBracket,  mods: Command|Shift, chars: "\x1b{"                       } # Alt + {
-    #- { key: Grave,     mods: Command,       chars: "\x1b`"                       } # Alt + `
-    #- { key: Key8,      mods: Command|Shift, chars: "\x1b*"                       } # Alt + *
+    #- { key: Grave,     mods: Command,       chars: "\x1b@"                       } # Alt + @
+    #- { key: Grave,     mods: Command|Shift, chars: "\x1b`"                       } # Alt + `
+  - { key: Semicolon, mods: Command,       chars: "\x1b;"                       } # Alt + ;
+  - { key: Semicolon, mods: Command|Shift, chars: "\x1b+"                       } # Alt + +
+  - { key: Colon,     mods: Command,       chars: "\x1b:"                       } # Alt + :
+  - { key: Colon,     mods: Command|Shift, chars: "\x1b*"                       } # Alt + *
   - { key: RBracket,  mods: Command,       chars: "\x1b]"                       } # Alt + ]
   - { key: RBracket,  mods: Command|Shift, chars: "\x1b}"                       } # Alt + }
   - { key: Comma,     mods: Command,       chars: "\x1b,"                       } # Alt + ,
