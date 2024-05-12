@@ -161,7 +161,7 @@ keybinds clear-defaults=true {
         bind "Alt l" "Alt Right" { MoveFocusOrTab "Right"; }
         bind "Alt k" "Alt Down" { MoveFocus "Down"; }
         bind "Alt i" "Alt Up" { MoveFocus "Up"; }
-        bind "Alt ;" "Alt =" "Alt +" { Resize "Increase"; }
+        bind "Alt =" "Alt +" { Resize "Increase"; }
         bind "Alt -" { Resize "Decrease"; }
         bind "Alt [" { PreviousSwapLayout; }
         bind "Alt ]" { NextSwapLayout; }
