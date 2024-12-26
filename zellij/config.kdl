@@ -157,10 +157,10 @@ keybinds clear-defaults=true {
         // bind "Alt o" { MoveTab "Right"; }
         bind "Alt ," { GoToPreviousTab; }
         bind "Alt ." { GoToNextTab; }
-        bind "Alt j" "Alt Left" { MoveFocusOrTab "Left"; }
+        bind "Alt h" "Alt Left" { MoveFocusOrTab "Left"; }
         bind "Alt l" "Alt Right" { MoveFocusOrTab "Right"; }
-        bind "Alt k" "Alt Down" { MoveFocus "Down"; }
-        bind "Alt i" "Alt Up" { MoveFocus "Up"; }
+        bind "Alt j" "Alt Down" { MoveFocus "Down"; }
+        bind "Alt k" "Alt Up" { MoveFocus "Up"; }
         bind "Alt =" "Alt +" { Resize "Increase"; }
         bind "Alt -" { Resize "Decrease"; }
         bind "Alt [" { PreviousSwapLayout; }
