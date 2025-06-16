@@ -1,0 +1,72 @@
+# single key bindings
+CapsLock -> R-Ctrl
+L-Shift ->
+R-Shift ->
+L-Ctrl -> R-Alt
+Win ->
+L-Alt -> Fn
+R-Alt ->
+Fn -> App (from AirOne specification)
+R-Ctrl ->
+
+# combination key bindings
+Fn + Esc -> 
+Fn + 1 -> 
+Fn + 2 -> 
+Fn + 3 -> 
+Fn + 4 -> 
+Fn + 5 -> 
+Fn + 6 -> 
+Fn + 7 -> 
+Fn + 8 -> 
+Fn + 9 -> 
+Fn + 0 -> 
+Fn + - -> 
+Fn + = -> 
+Fn + Backspace -> 
+Fn + Tab -> Win + Tab
+Fn + Q -> Esc
+Fn + W -> 
+Fn + E -> End
+Fn + R -> Enter
+Fn + T -> 
+Fn + Y -> 
+Fn + U -> 
+Fn + I -> R-Alt + UpArrow
+Fn + O -> 
+Fn + P -> PgUp
+Fn + [ -> Home
+Fn + ] -> End
+Fn + \ -> 
+Fn + A -> Home
+Fn + S -> 
+Fn + D -> Delete
+Fn + F -> 
+Fn + G -> 
+Fn + H -> LeftArrow
+Fn + J -> DownArror
+Fn + K -> UpArrow
+Fn + L -> RightArrow
+Fn + ; -> Backspace
+Fn + ' -> 
+Fn + Z -> App
+Fn + X -> L-Ctrl + X
+Fn + C -> L-Ctrl + C
+Fn + V -> L-Ctrl + V
+Fn + B -> 
+Fn + N -> PgDn
+Fn + M -> 
+Fn + , -> R-Alt + LeftArrow
+Fn + . -> R-Alt + RightArrow
+Fn + / -> 
+Fn + Space -> 
+Fn + Enter -> R-Alt + Enter 
+Fn + Home -> Default
+Fn + PgUp -> Layer1
+Fn + PgDn -> Layer2
+Fn + Pn -> 
+Fn + UpArrow -> PgUp
+Fn + DownArrow -> PgDn
+Fn + LeftArrow -> Home
+Fn + RightArrow -> End
+
