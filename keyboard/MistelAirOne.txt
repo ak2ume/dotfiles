@@ -37,7 +37,7 @@ Fn + O ->
 Fn + P -> PgUp
 Fn + [ -> Home
 Fn + ] -> End
-Fn + \ -> 
+Fn + \ -> Ins
 Fn + A -> Home
 Fn + S -> 
 Fn + D -> Delete
