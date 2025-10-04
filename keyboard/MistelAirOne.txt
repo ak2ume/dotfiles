@@ -1,5 +1,5 @@
 # single key bindings
-CapsLock -> R-Ctrl
+CapsLock -> L-Ctrl
 L-Shift ->
 R-Shift ->
 L-Ctrl -> R-Alt
