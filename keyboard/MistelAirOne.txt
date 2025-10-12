@@ -55,7 +55,7 @@ Fn + C -> L-Ctrl + C
 Fn + V -> L-Ctrl + V
 Fn + B -> 
 Fn + N -> PgDn
-Fn + M -> 
+Fn + M -> L-Ctrl + M
 Fn + , -> R-Alt + LeftArrow
 Fn + . -> R-Alt + RightArrow
 Fn + / -> 
